@@ -1,4 +1,3 @@
-logging:
-  level: INFO
-  loggers:
-    com.randreucetti: DEBUG
+server:
+  type: simple
+  applicationContextPath: /domains-graph
