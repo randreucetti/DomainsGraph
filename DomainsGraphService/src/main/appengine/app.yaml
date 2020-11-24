@@ -15,6 +15,6 @@
 # [START gae_java11_runtime]
 runtime: java11
 
-entrypoint: java -jar target/DomainsGraph-1.0-SNAPSHOT.jar server
+entrypoint: java -jar DomainsGraphService/target/DomainsGraphService-1.0-SNAPSHOT.jar server config.yml
 # No need for an entrypoint with single fatjar with correct manifest class-path entry.
 # [END gae_java11_runtime]
